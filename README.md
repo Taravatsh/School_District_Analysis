@@ -95,7 +95,7 @@ Similarly, the reading scores by grade level of each school is displayed in figu
 
 *Reading scores by grade level from the original dataset analysis with math and reading scores of Thomas High School ninth graders:*
 
-![Original reading scores by grade](Resources/original_reading_scores_by_grade.png)
+![Original reading scores by grade](Resources/Original_reading_scores_by_grade.png)
 
 *Reading scores by grade level after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
