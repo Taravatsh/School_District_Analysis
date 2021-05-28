@@ -8,7 +8,7 @@ Maria, who is the chief data scientist for a city school district, is tasked wit
 
 The purpose of this project is to further assist Maria in conducting the school district analysis once again due to potential academic dishonesty that was detected by the school board in reading and math grades of Thomas High School ninth graders. As a result of this two technical analysis has to be performed with the use of Python script, Pandas library and Jupyter notebook to help the school board in finalizing and reconsidering their decisions regarding school budgets and priorities. The two technical analysis that has to be carried out are as follows:
 
-1. Replacing the math and reading scores for Thomas High School ninth graders' with NaNs.
+1. Replacing the math and reading scores for Thomas High School ninth graders with NaNs.
 2. Repeating the school district analysis.
 
 ## Results
@@ -17,7 +17,7 @@ This section of the report focuses on how replacing the math and reading scores 
 
 ### District Summary
 
-Replacing the math and reading grades of Thomas High School ninth graders' with NaNs within the student data DataFrame had a slight affect on the average math score, passing math, passing reading and overall passing percentages among the 15 high schools comparing to the original district summary achieved earlier. The district summary of the initial district analysis  and the district summary after replacing the math and reading scores of ninth graders' with NaNs are shown in the images below respectively.
+Replacing the math and reading grades of Thomas High School ninth graders with NaNs within the student data DataFrame had a slight affect on the average math score, passing math, passing reading and overall passing percentages among the 15 high schools comparing to the original district summary achieved earlier. The district summary of the initial district analysis  and the district summary after replacing the math and reading scores of ninth graders with NaNs are shown in the images below respectively.
 
  The following changes are seen in the updated district summary DataFrame:
 
@@ -29,28 +29,28 @@ Replacing the math and reading grades of Thomas High School ninth graders' with 
 
 *Original district summary with math and reading scores of Thomas High School ninth graders:*
 
-![Original district summary](Resources/Original_district_summary.png)
+![Original district summary](Images/Original_district_summary.png)
 
 
 *Updated district summary after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated district summary](Resources/Repeated_district_summary.png)
+![Repeated district summary](Images/Repeated_district_summary.png)
 
 ### School Summary
 
-Initially when the math and reading scores of Thomas High School ninth graders' were replaced with NaNs, and prior to updating the per school summary DataFrame, it was shown that passing percentages of Thomas High School dropped to 60 percentile. This was predicted and considered misleading since the math and reading scores of ninth graders' were removed but the number of students were kept the same which resulted in a great percentage drop for Thomas High School since approximately quarter of students did not have grades but were still considered among the total student counts in the denominator as shown in the image below. 
+Initially when the math and reading scores of Thomas High School ninth graders were replaced with NaNs, and prior to updating the per school summary DataFrame, it was shown that passing percentages of Thomas High School dropped to 60 percentile. This was predicted and considered misleading since the math and reading scores of ninth graders were removed but the number of students were kept the same which resulted in a great percentage drop for Thomas High School since approximately quarter of students did not have grades but were still considered among the total student counts in the denominator as shown in the image below. 
 
-![Before updating per school summary](Resources/Before_updating_per_school_summary.png)
+![Before updating per school summary](Images/Before_updating_per_school_summary.png)
 
 However, after updating the school summary and recalculating the percentages only for tenth to twelfth graders for Thomas High School, the percentages increased significantly back to the 90th percentile similar to the original district summary with negligibly small differences.
 
 *Original per school summary with math and reading scores of Thomas High School ninth graders:*
 
-![Original per school summary](Resources/Original_per_school_summary.png)
+![Original per school summary](Images/Original_per_school_summary.png)
 
 *Updated per school summary after recalculating the passing percentages using tenth to twelfth graders from Thomas High School:*
 
-![Repeated per school summary](Resources/Updated_per_school_summary.png)
+![Repeated per school summary](Images/Updated_per_school_summary.png)
 
 As shown in the figures above, the following changes can be seen for Thomas High School after updating the school summary using their tenth to twelfth graders:
 
@@ -66,12 +66,12 @@ Although Thomas High School passing percentages dropped slightly but their perfo
 
 *Top five performing schools of the original school district analysis with math and reading scores of Thomas High School ninth graders:*
 
-![Original top five schools](Resources/Original_top_schools.png)
+![Original top five schools](Images/Original_top_schools.png)
 
 
 *Top five performing schools after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated top five schools](Resources/Top_schools.png)
+![Repeated top five schools](Images/Top_schools.png)
 
 ### Math and Reading Scores by Grade
 
@@ -83,11 +83,11 @@ The math scores by grade level of each school is illustrated in figures below bo
 
 *Math scores by grade level of the original dataset analysis with math and reading scores of Thomas High School ninth graders:*
 
-![Original math scores by grade](Resources/Original_math_scores_by_grade.png)
+![Original math scores by grade](Images/Original_math_scores_by_grade.png)
 
 *Math scores by grade level after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated math scores by grade](Resources/Math_scores_by_grade.png)
+![Repeated math scores by grade](Images/Math_scores_by_grade.png)
 
 - **Reading Scores by Grade**
 
@@ -95,11 +95,11 @@ Similarly, the reading scores by grade level of each school is displayed in figu
 
 *Reading scores by grade level from the original dataset analysis with math and reading scores of Thomas High School ninth graders:*
 
-![Original reading scores by grade](Resources/Original_reading_scores_by_grade.png)
+![Original reading scores by grade](Images/Original_reading_scores_by_grade.png)
 
 *Reading scores by grade level after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated reading scores by grade](Resources/Reading_scores_by_grade.png)
+![Repeated reading scores by grade](Images/Reading_scores_by_grade.png)
 
 
 ### Scores by School Spending
@@ -108,11 +108,11 @@ The average math and reading scores, as well as the passing math, reading and ov
 
 *Spending Summary DataFrame with math and reading scores of Thomas High School ninth graders:*
 
-![Original scores by school spending](Resources/Original_scores_by_school_spending.png)
+![Original scores by school spending](Images/Original_scores_by_school_spending.png)
 
 *Spending Summary DataFrame after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated scores by school spending](Resources/Scores_by_school_spending.png)
+![Repeated scores by school spending](Images/Scores_by_school_spending.png)
 
 ### Scores by School Size
 
@@ -120,11 +120,11 @@ The scores and percentages in terms of average math score, average reading score
 
 *Size Summary DataFrame with math and reading scores of Thomas High School ninth graders:*
 
-![Original scores by school size](Resources/Original_scores_by_school_size.png)
+![Original scores by school size](Images/Original_scores_by_school_size.png)
 
 *Size Summary DataFrame after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated scores by school size](Resources/Scores_by_school_size.png)
+![Repeated scores by school size](Images/Scores_by_school_size.png)
 
 ### Scores by School Type
 
@@ -132,11 +132,11 @@ Replacing the math and reading scores of Thomas High School ninth graders with N
 
 *Type Summary DataFrame with math and reading scores of Thomas High School ninth graders:*
 
-![Original scores by school type](Resources/Original_scores_by_school_type.png)
+![Original scores by school type](Images/Original_scores_by_school_type.png)
 
 *Type Summary DataFrame after replacing the math and reading scores of Thomas High School ninth graders with NaNs:*
 
-![Repeated scores by school type](Resources/Scores_by_school_type.png)
+![Repeated scores by school type](Images/Scores_by_school_type.png)
 
 ## Summary
 
